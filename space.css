@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.ven{
+    width: 1000px;
+    height: 1000px;
+    margin-top: 890px;
+    margin-left: 160px;
+}
+body{
+    background-image: url("room.jpg");
+    background-size: 210%;
+    width: 100%;
+
+    background-repeat: no-repeat;
+
+}
+.bu{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.sun1{
+    background-image: url("sun.png");
+    background-size: 100%;
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: -1050px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: -webkit-grab;
+}
+.sun1:active{
+    cursor:url("cur.png"),auto;
+}
+.sun2{
+    margin-top: -100px;
+    width: 500px;
+    height: 500px;
+
+}
